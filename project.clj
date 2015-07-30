@@ -22,4 +22,5 @@
                                   [midje "1.7.0"]]
                    :plugins [[lein-ring "0.9.6"]
                              [lein-midje "3.1.3"]
-                             [lein-environ "1.0.0"]]}})
+                             [lein-environ "1.0.0"]]}}
+  :min-lein-version "2.0.0")
