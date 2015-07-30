@@ -1,1 +1,1 @@
-web: lein run $PORT
+web: java -jar server.jar $PORT

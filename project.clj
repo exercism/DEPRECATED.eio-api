@@ -16,7 +16,8 @@
   :ring {:handler exercism-api.handler/app}
   :main exercism-api.core
   :uberjar-name "server.jar"
-  :profiles {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
+  :profiles {:uberjar {:aot :all}
+             :dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                                   [cheshire "5.5.0"]
                                   [ring-mock "0.1.5"]
                                   [midje "1.7.0"]]
