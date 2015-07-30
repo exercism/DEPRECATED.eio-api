@@ -27,3 +27,7 @@ java -jar target/server.jar
 Copyright © 2015 Katrina Owen, [[mailto:_@kytrinyx.com][_@kytrinyx.com]]
 
 Distributed under the Eclipse Public License, the same as Clojure
+
+
+  #+ATTR_HTML: title="Join the chat at https://gitter.im/exercism/eio-api"
+  [[https://gitter.im/exercism/eio-api?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge][file:https://badges.gitter.im/Join%20Chat.svg]]
