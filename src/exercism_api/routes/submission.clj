@@ -23,7 +23,7 @@
         :summary "Fetch exercises for a track"
         :query-params [key :- String]
         (dummy))
-  (GET* "exercises/:track-id/:slug" [track-id slug]
+  (GET* "/exercises/:track-id/:slug" [track-id slug]
         :return Exercise
         :summary "Fetch a specific exercise"
         :query-params [key :- String]
