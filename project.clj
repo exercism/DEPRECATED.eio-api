@@ -11,7 +11,8 @@
                  [http-kit "2.1.18"]
                  [cheshire "5.5.0"]
                  [korma "0.4.2"]
-                 [org.clojure/java.jdbc "0.3.7"]]
+                 [org.clojure/java.jdbc "0.3.7"]
+                 [org.postgresql/postgresql "9.4-1201-jdbc41"]]
   :ring {:handler exercism-api.handler/app}
   :main exercism-api.core
   :uberjar-name "server.jar"
