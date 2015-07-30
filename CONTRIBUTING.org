@@ -1,4 +1,5 @@
 #+TITLE: Contributing
 #+AUTHOR: Jason Lewis
+#+DATE: 2 July 2015
 
 ** TODO Adapt from existing Exercism contributing guide

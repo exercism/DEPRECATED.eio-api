@@ -1,5 +1,6 @@
 #+TITLE: Contributor Code of Conduct
 #+AUTHOR: Jason Lewis
+#+DATE: 2 July 2015
 
 As contributors and maintainers of this project, we pledge to respect all people
 who contribute through reporting issues, posting feature requests, updating

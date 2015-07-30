@@ -1,8 +1,9 @@
 #+TITLE: exercism-api
 #+AUTHOR: Jason Lewis
 #+EMAIL: jason@decomplecting.org
+#+DATE: 2 July 2015
 
-A (prototype) next-gen API for [[http://exercism.io][exercism.io]]
+A new API for [[http://exercism.io][exercism.io]]
 
 ** Usage
 
