@@ -26,7 +26,7 @@
   (GET* "exercises/:track-id/:slug" [track-id slug]
         :return Exercise
         :summary "Fetch a specific exercise"
-        :query-params [key :-String]
+        :query-params [key :- String]
         (dummy))
 
   ;; Problem routes
