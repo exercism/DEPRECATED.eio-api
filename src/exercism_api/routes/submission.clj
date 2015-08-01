@@ -18,16 +18,40 @@
         :summary "Grab the next exercises"
         :query-params [key :- String]
         (dummy))
-  (GET* "/exercises/:track-id" [track-id]
+  (GET* "/exercises/:track-id" []
         :return [Exercise]
         :summary "Fetch exercises for a track"
+        :path-params  [track-id :- String]
         :query-params [key :- String]
         (dummy))
-  (GET* "/exercises/:track-id/:slug" [track-id slug]
+  (GET* "/exercises/:track-id/:slug" []
         :return Exercise
         :summary "Fetch a specific exercise"
+        :path-params [track-id :- String, :slug :- String]
         :query-params [key :- String]
         (dummy))
+
+  ;; Iterations
+  (GET* "/iterations/:key/restore" []
+        :return [Submission]
+        :path-params [key :- String]
+        :summary "Restore user submissions from server"
+        (dummy))
+
+  (POST* "/iterations/:language/:slug/skip" [language, slug]
+         :return Long
+         :summary "Skip problem"
+         :query-params [key :- String]
+         (no-content))
+
+  (POST* "/user/assignments" []
+         :return Long
+         :summary "Post assignment"
+         :body-params [key :- String,
+                       solution :- String,
+                       language :- String
+                       problem :- String]
+         (no-content))
 
   ;; Problem routes
   ;; Origin api/routes/problems.rb
